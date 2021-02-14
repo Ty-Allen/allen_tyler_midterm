@@ -70,10 +70,36 @@ header
 
 #promoImage
 {
+	background-image: url(../images/promo_image.png);
 	width: 1200px;
 	height: 399px;
 	border-bottom: 5px solid #000;
 	margin-bottom: 75px;
+}
+
+#animation
+{
+	font-family: "Gotham", arial, sans-serif;
+	font-size: 72px;
+	color: #fff;
+	padding: 10px 0px 0px 30px;
+	animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein
+{
+  from
+	{
+    margin-top: 50%;
+		width: 100%
+  }
+
+  to
+	{
+    margin-top: 0%;
+    width: 100%;
+  }
 }
 
 #beerPromo
